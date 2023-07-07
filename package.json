@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/RodionKipitok/module10.git",
+  "homepage": "https://RodionKipitok.github.io/module10/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "https://github.com/RodionKipitok/module10.git"
+    "build": "https://RodionKipitok.github.io/module10/"
   },
   "repository": {
     "type": "git",
