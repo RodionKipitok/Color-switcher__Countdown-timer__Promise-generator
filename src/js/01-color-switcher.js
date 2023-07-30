@@ -11,8 +11,19 @@ function getRandomHexColor() {
  };
 
 
+
+
+
+
+
+/*Это старый код где выдает ошибку 
+
+01-color-switcher.js:15 Uncaught ReferenceError: timerId is not defined
+
+at HTMLButtonElement.<anonymous> (01-color-switcher.js:15:4) */
+
   ref.btnStart.addEventListener('click',() => {
-   timerId = setInterval(() => {
+    const timerId = setInterval(() => {
     const color = getRandomHexColor();
     ref.body.style.backgroundColor = color;
     ref.btnStart.setAttribute("disabled", "disabled")
@@ -29,6 +40,7 @@ function getRandomHexColor() {
       ref.btnStart.removeAttribute("disabled");
 		ref.body.style.backgroundColor = '';
 	})
+
 
 
 
