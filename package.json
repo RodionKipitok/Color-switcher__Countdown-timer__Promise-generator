@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://RodionKipitok.github.io/modul10/",
+  "homepage": "https://RodionKipitok.github.io/Color-switcher__Countdown-timer__Promise-generator/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /modul10/"
+    "build": "parcel build src/*.html --public-url /Color-switcher__Countdown-timer__Promise-generator/"
   },
   "repository": {
     "type": "git",
